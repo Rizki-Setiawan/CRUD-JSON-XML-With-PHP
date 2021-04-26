@@ -1,0 +1,92 @@
+[
+         {
+            "id": "1",
+            "nama": "salak",
+            "lokasi": "bogor",
+            "ketinggian": "2211"
+         },
+         {
+            "id": "2",
+            "nama": "gede",
+            "lokasi": "bogor",
+            "ketinggian": "2958"
+         },
+         {
+            "id": "3",
+            "nama": "pangrango",
+            "lokasi": "bogor",
+            "ketinggian": "3019"
+         },
+         {
+            "id": "4",
+            "nama": "batu",
+            "lokasi": "bogor",
+            "ketinggian": "870"
+         },
+         {
+            "id": "5",
+            "nama": "munara",
+            "lokasi": "bogor",
+            "ketinggian": "980"
+         },
+         {
+            "id": "6",
+            "nama": "guntur",
+            "lokasi": "garut",
+            "ketinggian": "2249"
+         },
+         {
+            "id": "7",
+            "nama": "cikuray",
+            "lokasi": "garut",
+            "ketinggian": "2818"
+         },
+         {
+            "id": "8",
+            "nama": "tangkuban parahu",
+            "lokasi": "bandung",
+            "ketinggian": "2084"
+         },
+         {
+            "id": "9",
+            "nama": "papandayan",
+            "lokasi": "garut",
+            "ketinggian": "2302"
+         },
+         {
+            "id": "10",
+            "nama": "galunggung",
+            "lokasi": "tasikmalaya",
+            "ketinggian": "2167"
+         },
+         {
+            "id": "11",
+            "nama": "wayang",
+            "lokasi": "bandung",
+            "ketinggian": "2181"
+         },
+         {
+            "id": "12",
+            "nama": "patuha",
+            "lokasi": "bandung",
+            "ketinggian": "2386"
+         },
+         {
+            "id": "13",
+            "nama": "masigit",
+            "lokasi": "bandung",
+            "ketinggian": "2078"
+         },
+         {
+            "id": "14",
+            "nama": "ciremai",
+            "lokasi": "kuningan",
+            "ketinggian": "3078"
+         },
+         {
+            "id": "15",
+            "nama": "parang",
+            "lokasi": "purwakarta",
+            "ketinggian": "963"
+         }
+]
