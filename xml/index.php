@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -15,10 +16,11 @@
 
 	<link href="css/styles.css" rel="stylesheet" />
 </head>
+
 <body id="page-top">
 	<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
 		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top">Pengolah XML</a>
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">My Pengolah XML</a>
 			<button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				Menu
 				<i class="fas fa-bars"></i>
@@ -35,10 +37,10 @@
 
 	<header class="masthead bg-primary text-white text-center">
 		<div class="container d-flex align-items-center flex-column">
-			<h1 class="masthead-heading text-uppercase mb-0">Aplikasi Pengolah 
+			<h1 class="masthead-heading text-uppercase mb-0">Aplikasi Pengolah
 				<?php
-					$str = "<XML/>";
-					echo htmlspecialchars($str);
+				$str = "<XML/>";
+				echo htmlspecialchars($str);
 				?>
 			</h1>
 			<p class="masthead-subheading font-weight-light mb-0">Menyimpan XML Ke Database, Menampilkan XML dari Database</p>
@@ -46,7 +48,7 @@
 	</header>
 
 	<section class="page-section portfolio" id="portfolio">
-		<div class="container d-flex align-items-center flex-column">               
+		<div class="container d-flex align-items-center flex-column">
 			<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Insert Data</h2>
 			<p class="masthead-subheading font-weight-light mb-0">Menyimpan data dari file XML ke Database</p>
 		</div><br>
@@ -56,8 +58,8 @@
 	</section>
 
 	<section class="page-section bg-primary text-white mb-0" id="about">
-		<div class="container">     
-			<div class="container d-flex align-items-center flex-column">   
+		<div class="container">
+			<div class="container d-flex align-items-center flex-column">
 				<h2 class="page-section-heading text-center text-uppercase text-white">View Data</h2>
 				<p class="masthead-subheading font-weight-light mb-0">Data gunung di provinsi Jawa Barat, hasil insert data dari file XML ke Database</p>
 			</div><br>
@@ -72,18 +74,18 @@
 						</tr>
 					</thead>
 					<tbody>
-						<?php 
+						<?php
 						include 'koneksi.php';
-						$data = mysqli_query($koneksi,"select * from data_xml");
-						while($row = mysqli_fetch_array($data)){
-							?>
+						$data = mysqli_query($koneksi, "select * from data_xml");
+						while ($row = mysqli_fetch_array($data)) {
+						?>
 							<tr>
 								<td><?php echo $row['id']; ?></td>
 								<td><?php echo $row['nama']; ?></td>
 								<td><?php echo $row['lokasi']; ?></td>
 								<td><?php echo $row['ketinggian']; ?></td>
 							</tr>
-							<?php 
+						<?php
 						}
 						?>
 					</tbody>
@@ -96,13 +98,13 @@
 	</section>
 
 	<section class="page-section" id="contact">
-		<div class="container d-flex align-items-center flex-column">               
+		<div class="container d-flex align-items-center flex-column">
 			<h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Create XML</h2>
 			<p class="masthead-subheading font-weight-light mb-0">Membuat data dari Database menjadi format XML</p>
 		</div><br>
 		<center>
 			<a class="btn btn-primary btn-xl" id="sendMessageButton" href="create_xml.php">Create XML</a>
-		</center>		
+		</center>
 	</section>
 
 	<div class="copyright py-4 text-center text-white">
@@ -118,4 +120,5 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
+
 </html>
